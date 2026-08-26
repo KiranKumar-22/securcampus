@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Reference</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- Header -->
+        <header>
+            <h1>Staff Reference</h1>
+            <p>Staff information, roles, responsibilities and procedures</p>
+        </header>
+
+        <div class="content">
+
+            <!-- Left Menu -->
+            <aside class="sidebar">
+
+                <h3>Reference Sections</h3>
+
+                <button class="menu-btn active"
+                    onclick="showSection('staff')">
+                    Staff Information
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('role')">
+                    Job Role & Responsibilities
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('daily')">
+                    Daily Procedures
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('policy')">
+                    Company Policies
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('contact')">
+                    Contact Information
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('emergency')">
+                    Emergency Procedures
+                </button>
+
+                <button class="menu-btn"
+                    onclick="showSection('faq')">
+                    FAQs
+                </button>
+
+            </aside>
+
+
+            <!-- Right Content -->
+            <main class="main-content">
+
+                <!-- Staff Information -->
+                <section id="staff" class="section active-section">
+
+                    <h2>Staff Information</h2>
+
+                    <div class="info-box">
+                        <p><strong>Staff Name:</strong> Kiran Kumar</p>
+                        <p><strong>Staff ID:</strong> ST1001</p>
+                        <p><strong>Department:</strong> Information Technology</p>
+                        <p><strong>Designation:</strong> Frontend Developer</p>
+                        <p><strong>Location:</strong> Chennai</p>
+                    </div>
+
+                </section>
+
+
+                <!-- Job Role -->
+                <section id="role" class="section">
+
+                    <h2>Job Role & Responsibilities</h2>
+
+                    <h3>Job Role</h3>
+
+                    <p>
+                        The staff member is responsible for developing,
+                        maintaining and improving web applications.
+                    </p>
+
+                    <h3>Key Responsibilities</h3>
+
+                    <ul>
+                        <li>Develop responsive web pages.</li>
+                        <li>Write clean and maintainable code.</li>
+                        <li>Work with HTML, CSS and JavaScript.</li>
+                        <li>Fix bugs and troubleshoot application issues.</li>
+                        <li>Test applications before deployment.</li>
+                        <li>Work with backend developers and other team members.</li>
+                        <li>Maintain project documentation.</li>
+                        <li>Follow company coding and security standards.</li>
+                    </ul>
+
+                </section>
+
+
+                <!-- Daily Procedures -->
+                <section id="daily" class="section">
+
+                    <h2>Daily Procedures</h2>
+
+                    <ol>
+                        <li>Check assigned tasks.</li>
+                        <li>Attend the daily team meeting.</li>
+                        <li>Review emails and important notifications.</li>
+                        <li>Complete assigned development tasks.</li>
+                        <li>Test completed work.</li>
+                        <li>Update task status.</li>
+                        <li>Report blockers to the team lead.</li>
+                    </ol>
+
+                </section>
+
+
+                <!-- Policies -->
+                <section id="policy" class="section">
+
+                    <h2>Company Policies</h2>
+
+                    <ul>
+                        <li>Maintain professional communication.</li>
+                        <li>Protect company and customer information.</li>
+                        <li>Follow attendance and working-hour policies.</li>
+                        <li>Do not share confidential information.</li>
+                        <li>Follow security guidelines.</li>
+                        <li>Use company resources responsibly.</li>
+                    </ul>
+
+                </section>
+
+
+                <!-- Contact -->
+                <section id="contact" class="section">
+
+                    <h2>Contact Information</h2>
+
+                    <div class="info-box">
+                        <p><strong>Team Lead:</strong> Arun Kumar</p>
+                        <p><strong>HR:</strong> Priya Sharma</p>
+                        <p><strong>IT Support:</strong> IT Helpdesk</p>
+                        <p><strong>Email:</strong> support@company.com</p>
+                        <p><strong>Office:</strong> +91 98765 43210</p>
+                    </div>
+
+                </section>
+
+
+                <!-- Emergency -->
+                <section id="emergency" class="section">
+
+                    <h2>Emergency Procedures</h2>
+
+                    <div class="warning-box">
+                        <h3>Important</h3>
+
+                        <p>
+                            In case of an emergency, immediately contact
+                            the appropriate team or emergency service.
+                        </p>
+                    </div>
+
+                    <ul>
+                        <li>Inform your team lead.</li>
+                        <li>Contact the security team.</li>
+                        <li>Follow building evacuation procedures.</li>
+                        <li>Do not use unsafe equipment.</li>
+                    </ul>
+
+                </section>
+
+
+                <!-- FAQ -->
+                <section id="faq" class="section">
+
+                    <h2>Frequently Asked Questions</h2>
+
+                    <div class="faq">
+                        <h3>Who should I contact for technical problems?</h3>
+                        <p>Contact the IT Helpdesk.</p>
+                    </div>
+
+                    <div class="faq">
+                        <h3>Who should I contact for HR-related questions?</h3>
+                        <p>Contact the HR department.</p>
+                    </div>
+
+                    <div class="faq">
+                        <h3>Who should I contact if I cannot complete a task?</h3>
+                        <p>Inform your team lead or manager.</p>
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
